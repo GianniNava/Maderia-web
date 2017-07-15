@@ -1,0 +1,56 @@
+body {margin:0;background:#fff url(imagenes/bosque1.png) repeat-x top;text-align:justify;font-family:Arial;font-size:13px;color:#000000}
+#headder{width:880px;height:105px;margin:0 auto}
+/*Logo*/
+#logo h1 {margin:0;padding:0;font:normal 36px Georgia, "Times New Roman"}
+#logo h2 {margin:0;padding:0;text-transform:uppercase;letter-spacing:2px;font-size:14px;font-weight:bold}
+/*Menu*/
+#menu {width:900px;height:47px;margin:0 auto;background:url(imagenes/barramenu.jpg) repeat-x left top}
+#menu ul {margin:0;padding:0;list-style:none;line-height:normal}
+#menu li {display:inline;text-align:center}
+#menu a {display:block;float:left;height:32px;margin-right:2px;padding:15px 20px 0 20px;text-decoration:none;text-align:center;font-size:16px;color:#000;font-family:"Times New Roman"}
+#menu a:hover, #menu .active a {background:#000;color:#fff;font-family:"Times New Roman";font-size:16px}
+#splash {width:900px;height:255px;margin:0 auto}
+/*Page*/
+#page {width:900px;margin:0 auto}
+/*Content*/
+#content {float:right;width:640px}
+.post {margin:0 0 30px 0;border-bottom:1px solid #ccc}
+.post .title {margin:0;padding:4px 35px 4px 15px;background:#030;color:#fff}
+.post .entry {padding:20px 0;font-size:15px}
+/*Sidebar*/
+#sidebar {float:left;width:200px;margin:0;padding:0 30px 30px 0}
+#sidebar ul {margin:0;padding:0;list-style:none;line-height:normal}
+#sidebar li {margin-bottom:1px}
+#sidebar li ul {margin:0;padding:0 0 40px 0}
+#sidebar li li {margin:0;padding:9px 0;border:none;border-bottom:1px solid #ccc}
+#sidebar h2 {margin:0;padding:0 0 20px 0;font-size:160%;font-weight:normal;color:#7EBA25}
+#sidebar h3 {font-size:77%;color:#110404}
+#sidebar p {margin:0;line-height:normal;color:#D4C792}
+#sidebar a {border:none;text-decoration:none;color:#4A4949}
+#sidebar a:hover {text-decoration:underline}
+/*Footer*/
+#footer {margin:0 auto;padding:20px 0;background:#000;color:#686767;width:900px}
+#footer p {padding:0 11px;margin:0;text-align:center;font-size:81%}
+#footer a {text-decoration:underline;color:#A1A1A1}
+#footer a:hover {text-decoration:none}
+.fleft {float:left}
+.fright {float:right}
+.fcenter {float:none;text-align:center}
+.fclear {clear:both}
+/*Catalogo*/
+#tablaC {float:right;width:640px;border:1px solid #7EBA25}
+.lineaC {height: 40px}
+.celdaCid {width:40px;background-color:#7EBA25;text-align:center;border:1px solid #7EBA25}
+.celdaCarbol {width:60px;background-color:#7EBA25;text-align:center;border:1px solid #7EBA25}
+.celdaClargo {width:100px;background-color:#7EBA25;text-align:center;border:1px solid #7EBA25}
+.celdaCancho {width:100px;background-color:#7EBA25;text-align:center;border:1px solid #7EBA25}
+.celdaCalto {width:80px;background-color:#7EBA25;text-align:center;border:1px solid #7EBA25}
+.celdaCprecio {width:140px;background-color:#7EBA25;text-align:center;border:1px solid #7EBA25}
+.celdaCimagen {width:120px;background-color:#7EBA25;text-align:center;border:1px solid #7EBA25}
+.celdaCont {text-align:center;border:1px solid #7EBA25}
+/*Maderas*/
+.maderaCon {margin:0 0 30px 0}
+.maderaCon .titulo {margin:0;padding:4px 35px 4px 15px;background:#030;color:#fff}
+.maderaCon .entrada {padding:20px 0;font-size:15px}
+.maderaCon .imag {width:150px;height:200px;float:right;padding-left:20px}
+.registro   {float: right }
